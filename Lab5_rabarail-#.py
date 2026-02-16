@@ -34,3 +34,4 @@ elif (die1==6 and die2==5) or (die1==5 and die2==6):
     print("Six Five no Jive")
 elif (die1==6 and die2==6):
     print("Boxcars")
+print("The total is", total)
