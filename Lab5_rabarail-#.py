@@ -8,6 +8,7 @@ print("Welcome to the dice rolling game!")
 die1 = random.randint(1, 6)
 die2 = random.randint(1, 6)
 total= die1 + die2
+print("You rolled a", die1, "and a", die2)
 if (die1==1 and die2==1):
     print("Snake Eyes")
 elif (die1==1 and die2==2) or (die1==2 and die2==1):
